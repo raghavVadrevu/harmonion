@@ -1,0 +1,25 @@
+.home-page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1A1A2E; /* Dark Theme Background */
+    color: #EAEAEA; /* Text and Labels */
+  }
+  
+  .video-call-section,
+  .music-player-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A86FF; /* Neon Accent Borders */
+  }
+  
+  .video-call-section {
+    background-color: #2A2A4D; /* Participant Frames Background */
+  }
+  
+  .music-player-section {
+    background-color: #222233; /* Chat Panel Background */
+  }
+  
